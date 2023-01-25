@@ -8,15 +8,15 @@ body{
 canvas#canvas {
     border:3px solid #000;
     position: fixed;
-    top: 15%;
+    top: 20%;
     left: 10%;
     z-index: 1;
 }
 
 canvas#ghost-canvas {
-  border:3px solid #000;
+
   position: fixed;
-  top: 38.5%;
+  top: 43.5%;
   left: 10%;
   z-index:2;
   margin-top:-220px;
@@ -52,7 +52,7 @@ button {
   }
 
   button#erase-btn{
-    top: 7%;
+    top: 10%;
     left: 10%;
  
   }
@@ -63,23 +63,23 @@ button {
   }
    
   button#undo-btn{
-    top: 7%;
-    left: 15%;
+    top:10%;
+    left: 16.5%;
   }
 
   button#square-btn{
-    top: 8%;
+    top: 10%;
     left: 23.5%;
   }
 
   button#circle-btn{
-    top: 8%;
-    left: 28%;
+    top: 10%;
+    left: 29%;
   }
 
   button#triangle-btn{
-    top: 8%;
-    left: 32.5%;
+    top: 10%;
+    left: 33.5%;
   }
 
   button#dimensional-vortex-btn{
@@ -133,7 +133,7 @@ button {
   }
 
   .slider#fnt-sld {
-    top: 10%;
+    top: 14%;
     left: 0%;
     width : 9%;
   }
@@ -218,29 +218,29 @@ button {
     }
     .clr:nth-child(1){
         background-color: #000;
-        top : 20%;
+        top : 25%;
     }
     .clr:nth-child(2){
         background-color: red;
-        top : 25%;
+        top : 32%;
     }
     .clr:nth-child(3){
         background-color: orange;
-        top : 30%;
+        top : 39%;
     }
     .clr:nth-child(4){
         background-color: blue;
-        top : 35%;
+        top : 46%;
     }
     .clr:nth-child(5){
         background-color: purple;
-        top : 40%;
+        top : 53%;
     }
     .clr:nth-child(6){
         background-color: green;
-        top : 45%;
+        top : 60%;
     }
     .clr:nth-child(7){
         background-color: yellow;
-        top : 50%;
+        top : 67%;
     }

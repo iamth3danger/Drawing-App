@@ -29,7 +29,7 @@ update = (slider) => slider.value;
 
 
 let width = .75 * window.innerWidth;
-let height = .8 * window.innerHeight;
+let height = .7 * window.innerHeight;
 
 function setCanvas(canvas){
 canvas.width = width;
