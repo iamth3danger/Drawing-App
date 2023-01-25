@@ -1,0 +1,246 @@
+body{
+    background: linear-gradient(217deg, rgba(60,153,106,.8), rgba(60,153,106,0) 70.71%),
+                linear-gradient(127deg, rgba(38,6,77,.8), rgba(38,6,77,0) 70.71%),
+                linear-gradient(336deg, rgba(0,0,255,.8), rgba(0,0,255,0) 70.71%);
+}
+
+
+canvas#canvas {
+    border:3px solid #000;
+    position: fixed;
+    top: 15%;
+    left: 10%;
+    z-index: 1;
+}
+
+canvas#ghost-canvas {
+  border:3px solid #000;
+  position: fixed;
+  top: 38.5%;
+  left: 10%;
+  z-index:2;
+  margin-top:-220px;
+}
+
+canvas#myCanvas {
+    top: 0%;
+    left: 75%;
+    z-index: 2;
+    position : fixed;
+
+}
+button {
+    font: inherit;
+    background: #97256D;
+    border: 1px solid #97256D;
+    color: white;
+    padding: 1rem 2rem;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 0.5rem;
+    position: fixed;
+    z-index: 2;
+  }
+  
+  button#clear-btn{
+    font-size : 1.25em;
+    font-family: "Arial";
+    font-weight: bold;
+    width : 150px;
+    top: 0%;
+    left: 10%;
+  }
+
+  button#erase-btn{
+    top: 7%;
+    left: 10%;
+ 
+  }
+
+  button#snake-btn{
+    top: 0%;
+    left: 25%;
+  }
+   
+  button#undo-btn{
+    top: 7%;
+    left: 15%;
+  }
+
+  button#square-btn{
+    top: 8%;
+    left: 23.5%;
+  }
+
+  button#circle-btn{
+    top: 8%;
+    left: 28%;
+  }
+
+  button#triangle-btn{
+    top: 8%;
+    left: 32.5%;
+  }
+
+  button#dimensional-vortex-btn{
+    top: 0%;
+    left: 30%;
+  }
+
+  button:focus {
+    outline: none;
+  }
+  
+  button:hover,
+  button:active {
+    background: #590038;
+    border-color: #590038;
+  }
+
+
+  .slidecontainer {
+    width: 100%;
+  }
+  
+  .slider{
+    position: fixed;
+    -webkit-appearance: none; 
+    border: 3px solid #000000;
+    appearance: none;
+    width: 10%; 
+    height: 25px; 
+    background: #d3d3d3; 
+    outline: none;
+    opacity: 0.7; 
+    -webkit-transition: .2s; 
+    transition: opacity .2s;
+    z-index : 2;
+  }
+  .slider#red-sld {
+    top: 0%;
+    left: 60%;
+
+  }
+  
+  .slider#blue-sld {
+    top: 5%;
+    left: 60%;
+  }
+
+  .slider#green-sld {
+    top: 10%;
+    left: 60%;
+  }
+
+  .slider#fnt-sld {
+    top: 10%;
+    left: 0%;
+    width : 9%;
+  }
+ 
+  .slider:hover {
+    opacity: 1; 
+  }
+
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none; 
+    appearance: none;
+    width: 25px; 
+    height: 25px; 
+    cursor: pointer; 
+  }
+
+  .slider#red-sld::-webkit-slider-thumb{
+    background: #FF0000;
+  }
+
+  .slider#blue-sld::-webkit-slider-thumb{
+    background: #0000FF;
+  }
+
+  .slider#green-sld::-webkit-slider-thumb{
+    background: #0CC415;
+  }
+
+  .slider#fnt-sld::-webkit-slider-thumb{
+    background: #000000;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 25px; /* Set a specific slider handle width */
+    height: 25px; /* Slider handle height */
+    background: #04AA6D; /* Green background */
+    cursor: pointer; /* Cursor on hover */
+  }
+
+  input{
+      background: rgba(0, 0, 0, 0);
+      border-color : rgba(0, 0, 0, 0);
+      width : 110px;
+      font-size : 1.25em;
+      font-family: "Lucida Console", "Courier New", monospace;
+      font-weight: bold;
+      position : fixed;
+      z-index: 3;
+    }
+    input#redSliderText {
+      top: .5%;
+      left: 72%;
+      color : red;
+    }
+
+    input#blueSliderText {
+      top: 5.5%;
+      left: 72%;
+      color : blue;
+    }
+
+    input#greenSliderText {
+      top: 10.5%;
+      left: 72%;
+      color : green;
+    }
+
+    .clr{
+      height: 35px;
+      width: 35px;
+      border-radius: 50%;
+      border: 3px solid white;
+      transition: transform .5s;
+      position : fixed;
+      top : 15%;
+      left : 5%;
+    }
+
+    .clr:hover{
+        transform: scale(1.2);
+    }
+    .clr:nth-child(1){
+        background-color: #000;
+        top : 20%;
+    }
+    .clr:nth-child(2){
+        background-color: red;
+        top : 25%;
+    }
+    .clr:nth-child(3){
+        background-color: orange;
+        top : 30%;
+    }
+    .clr:nth-child(4){
+        background-color: blue;
+        top : 35%;
+    }
+    .clr:nth-child(5){
+        background-color: purple;
+        top : 40%;
+    }
+    .clr:nth-child(6){
+        background-color: green;
+        top : 45%;
+    }
+    .clr:nth-child(7){
+        background-color: yellow;
+        top : 50%;
+    }
